@@ -1,2 +1,2 @@
 # HZYCollectionViewDemo
-类似于tableView的section headerView悬停效果的CollectionViewDemo
+类似于tableView的section headerView的悬停效果
