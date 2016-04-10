@@ -14,6 +14,8 @@
 		08C3F18B1CB99C5B0059E721 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C3F18A1CB99C5B0059E721 /* Images.xcassets */; };
 		08C3F18E1CB99C5B0059E721 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C3F18C1CB99C5B0059E721 /* LaunchScreen.xib */; };
 		08C3F19A1CB99C5B0059E721 /* HZYCollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C3F1991CB99C5B0059E721 /* HZYCollectionViewDemoTests.m */; };
+		08C3F1A51CB9A27A0059E721 /* HZYCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C3F1A41CB9A27A0059E721 /* HZYCollectionReusableView.m */; };
+		08C3F1A81CB9A8090059E721 /* HZYColletionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C3F1A71CB9A8090059E721 /* HZYColletionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		08C3F1931CB99C5B0059E721 /* HZYCollectionViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZYCollectionViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C3F1981CB99C5B0059E721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08C3F1991CB99C5B0059E721 /* HZYCollectionViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZYCollectionViewDemoTests.m; sourceTree = "<group>"; };
+		08C3F1A31CB9A27A0059E721 /* HZYCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYCollectionReusableView.h; sourceTree = "<group>"; };
+		08C3F1A41CB9A27A0059E721 /* HZYCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYCollectionReusableView.m; sourceTree = "<group>"; };
+		08C3F1A61CB9A8090059E721 /* HZYColletionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYColletionViewFlowLayout.h; sourceTree = "<group>"; };
+		08C3F1A71CB9A8090059E721 /* HZYColletionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYColletionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				08C3F1821CB99C5B0059E721 /* AppDelegate.m */,
 				08C3F1841CB99C5B0059E721 /* ViewController.h */,
 				08C3F1851CB99C5B0059E721 /* ViewController.m */,
+				08C3F1A31CB9A27A0059E721 /* HZYCollectionReusableView.h */,
+				08C3F1A41CB9A27A0059E721 /* HZYCollectionReusableView.m */,
+				08C3F1A61CB9A8090059E721 /* HZYColletionViewFlowLayout.h */,
+				08C3F1A71CB9A8090059E721 /* HZYColletionViewFlowLayout.m */,
 				08C3F1871CB99C5B0059E721 /* Main.storyboard */,
 				08C3F18A1CB99C5B0059E721 /* Images.xcassets */,
 				08C3F18C1CB99C5B0059E721 /* LaunchScreen.xib */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08C3F1A81CB9A8090059E721 /* HZYColletionViewFlowLayout.m in Sources */,
 				08C3F1861CB99C5B0059E721 /* ViewController.m in Sources */,
 				08C3F1831CB99C5B0059E721 /* AppDelegate.m in Sources */,
 				08C3F1801CB99C5B0059E721 /* main.m in Sources */,
+				08C3F1A51CB9A27A0059E721 /* HZYCollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

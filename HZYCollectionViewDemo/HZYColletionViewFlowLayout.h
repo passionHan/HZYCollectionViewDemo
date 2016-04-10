@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HZYColletionViewFlowLayout.h
 //  HZYCollectionViewDemo
 //
 //  Created by passionHan on 16/4/9.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController
+@interface HZYColletionViewFlowLayout : UICollectionViewFlowLayout
+
+@property (nonatomic ,assign) CGFloat navHeight;
 
 
 @end
-
